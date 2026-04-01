@@ -1,0 +1,118 @@
+Japan Bureaucracy Buddy — Data Sources
+=======================================
+All data must come from these official/verified sources. No dummy data.
+
+=== Address Registration (Tennyuu Todoke) ===
+- Immigration Services Agency: https://www.isa.go.jp/en/
+- Each city/ward office website (e.g., Shinjuku: https://www.city.shinjuku.lg.jp/foreign/english/)
+- Required within 14 days of moving in (Resident Basic Act)
+
+=== My Number ===
+- Digital Agency: https://www.digital.go.jp/policies/mynumber/
+- My Number Card portal: https://www.kojinbango-card.go.jp/en/
+- Card arrives by mail 1-2 months after application
+
+=== Bank Accounts ===
+
+[MUFG (Mitsubishi UFJ)]
+- Official English: https://www.bk.mufg.jp/global/
+- Foreigner acceptance: YES (6-month rule applies for full account)
+- 6-month rule: YES — non-residents get restricted account
+- English support: Limited (some branches, ATM has English)
+- Required docs: Passport, Residence Card, My Number notification, seal/signature
+
+[SMBC (Sumitomo Mitsui)]
+- Official English: https://www.smbc.co.jp/global/
+- Foreigner acceptance: YES (6-month rule applies)
+- 6-month rule: YES
+- English support: Limited (phone has English line: 0120-327-236)
+- Required docs: Passport, Residence Card, inkan or signature
+
+[Mizuho]
+- Official English: https://www.mizuhogroup.com/bank
+- Foreigner acceptance: YES (6-month rule applies)
+- 6-month rule: YES
+- English support: Limited
+- Required docs: Passport, Residence Card
+
+[Japan Post Bank (Yucho)]
+- Official English: https://www.jp-bank.japanpost.jp/en/
+- Foreigner acceptance: YES (3+ months of remaining visa period OK)
+- 6-month rule: EXCEPTION — can open with 3+ months visa
+- English support: Minimal (forms available in English)
+- Required docs: Residence Card, Passport
+- Note: Most foreigner-friendly for new arrivals
+
+[Sony Bank]
+- Official: https://moneykit.net/en/
+- Foreigner acceptance: YES (need residence card + Japanese address)
+- 6-month rule: Applies for initial application
+- English support: FULL (app and website in English)
+- Required docs: Residence Card, My Number
+- Note: Popular among expats for English interface and low FX fees
+
+[Rakuten Bank]
+- Official: https://www.rakuten-bank.co.jp/
+- Foreigner acceptance: YES (online only, need Japanese address)
+- 6-month rule: Applies
+- English support: Partial (some pages translated)
+- Required docs: Residence Card, My Number
+- Note: Fully online account opening; paired with Rakuten Card
+
+=== Health Insurance ===
+- MHLW: https://www.mhlw.go.jp/english/
+- NHI overview: https://www.mhlw.go.jp/english/policy/health-medical/health-insurance/
+- Enrollment at ward/city office within 14 days of arrival
+- Premiums based on previous year income (first year is low)
+
+=== National Pension ===
+- Japan Pension Service: https://www.nenkin.go.jp/international/
+- Enrollment at ward/city office
+- Monthly premium: approximately 16,980 yen (FY2025)
+- Students can apply for exemption (学生納付特例)
+- Lump-sum withdrawal available when leaving Japan
+
+=== 2027 Insurance Rule ===
+- Source: GaijinPot reporting on Immigration Bureau policy change
+- From 2027: Health insurance delinquency will be checked at visa renewal
+- Unpaid premiums may result in visa renewal denial
+- This affects all visa categories
+
+=== Visa-Type Differences (build must implement these filters) ===
+
+[Permanent Resident]
+- Bank: No 6-month restriction
+- Insurance: NHI or employer insurance
+- Pension: Mandatory (no exemption)
+- Special: No visa renewal concern for insurance
+
+[Engineer/Specialist in Humanities/International Services (技人国)]
+- Bank: 6-month rule applies if just arrived
+- Insurance: Usually employer-provided (shakai hoken)
+- Pension: Employer pension (kosei nenkin)
+- Special: Employer often handles much of the paperwork
+
+[Student]
+- Bank: 6-month rule applies; JP Post Bank recommended
+- Insurance: NHI (mandatory)
+- Pension: Can apply for student exemption
+- Special: Work limited to 28 hrs/week (need permission)
+
+[Specified Skilled Worker (特定技能)]
+- Bank: 6-month rule applies
+- Insurance: Employer insurance (shakai hoken)
+- Pension: Employer pension
+- Special: Employer/agency often assists with procedures
+
+[Spouse of Japanese National]
+- Bank: 6-month rule may apply if just arrived
+- Insurance: NHI or spouse's employer insurance
+- Pension: Category 3 if spouse is company employee (no payment needed)
+- Special: Can work without restriction
+
+=== FEFTA 6-Month Rule ===
+- Foreign Exchange and Foreign Trade Act (外為法)
+- Residents in Japan less than 6 months = "non-resident" status
+- Non-resident accounts: No online banking, no debit card, limited ATM hours
+- After 6 months: Can upgrade to full resident account
+- Source: Bank of Japan regulations, Wise blog, Japan Dev
