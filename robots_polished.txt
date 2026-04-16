@@ -1,0 +1,4 @@
+User Agent*.
+Allow/
+
+Site Map: https://humancronadmin.github.io/japan-bureaucracy-buddy/sitemap.xml

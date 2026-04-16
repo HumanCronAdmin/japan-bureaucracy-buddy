@@ -1,0 +1,118 @@
+Japan Bureaucracy Buddy - Data Source
+=======================================
+All data must come from these official/verified sources. No dummy data.
+
+=== Address Registration (Notification of Moving In) === Immigration Bureau:.
+- Immigration Bureau: https://www.isa.go.jp/en/
+- Website of each municipality (e.g. Shinjuku-ku: https://www.city.shinjuku.lg.jp/foreign/english/).
+- Required within 14 days after moving in (Basic Resident Act).
+
+=== My number
+- Digital Agency: https://www.digital.go.jp/policies/mynumber/
+- My number card portal: https://www.kojinbango-card.go.jp/en/
+- Mailed 1-2 months after application
+
+=== Bank account
+
+[MUFG (Mitsubishi UFJ)].
+- Official English website: https://www.bk.mufg.jp/global/
+- Acceptance of foreigners: YES (6-month rule applies for opening a full account)
+- 6-month rule: YES - non-residents get restricted accounts
+- English support: limited (some branches and ATMs are English-speaking)
+- Required DocumentsPassport, Resident Card, Notification of My Number, personal seal and signature
+
+[Sumitomo Mitsui Banking Corporation
+- Official English: https://www.smbc.co.jp/global/
+- Foreigners accepted (with 6-month rule)
+- 6-month rule: YES
+- English support available: Limited (Phone calls are available in English: 0120-327-236)
+- Required documentsPassport, resident card, seal or signature
+
+[Mizuho]
+- Official English: https://www.mizuhogroup.com/bank
+- Foreigners accepted (6-month rule applies)
+- 6-month rule: YES
+- English support limited
+- Required DocumentsPassport, Residence Card
+
+[Japan Post Bank (Yucho)
+- Official English: https://www.jp-bank.japanpost.jp/en/
+- Acceptable for foreign nationals (Visa remaining period of 3 months or more is acceptable)
+- 6 month rule: Exception: Can be opened with a visa of 3 months or more
+- English Support: Required Documents: Minimum (English form available)
+- Required documents: Residence card, passport
+- Remarks: Most friendly to new arrivals.
+
+[Sony Bank]
+- Official: https://moneykit.net/en/
+- Foreigners accepted: Yes (Residence card + Japanese address required)
+- 6-month rule: Applies to first-time applicants only
+- English support FULL (application and website are in English)
+- Required documents Residence card, My number
+- Remarks: Popular among expatriates for its English interface and low FX commissions
+
+[Rakuten Bank]
+- Official: https://www.rakuten-bank.co.jp/
+- Foreigners accepted: Yes (online only, Japanese address required)
+- 6 month rule applies
+- English support partially available (translated pages available)
+- Required documents: Residence card, My number
+- Remarks: Fully online account opening, affiliated with Rakuten Card
+
+=== Health insurance
+- Ministry of Health, Labor and Welfare: https://www.mhlw.go.jp/english/
+- NHI Summary: https://www.mhlw.go.jp/english/policy/health-medical/health-insurance/
+- Enroll at the ward office within 14 days of arrival.
+- Premiums are determined based on the previous year's income (cheaper the first year).
+
+=== National Pension
+- Japan Pension Service: https://www.nenkin.go.jp/international/
+- Enrollment at ward/city hall
+- Monthly premium: Approx. 16,980 yen (FY2025)
+- Special payment system for students is available.
+- Lump-sum withdrawal payment upon leaving Japan.
+
+=== Insurance rules for FY2027
+- Source Source: GaijinPot's report on immigration policy changes
+- From 2027: Health insurance premium arrears will be checked at the time of visa renewal.
+- Non-payment of premiums may result in denial of visa renewal
+- Applies to all visa categories
+
+=== Differences by visa category (build must implement these filters)
+
+[Permanent Residence]
+- Bank: no 6 month limit
+- Insurance Drug or Employment Insurance
+- Mandatory pension coverage (no exemptions)
+- Special: no visa renewal required if insured
+
+[Engineer/Humanities/International Services (Engineer Country)
+- Banking: 6-month rule applies if just arrived
+- Insurance: usually paid by employer (social insurance)
+- Pension Employer Pension
+- Special: employer often handles much of the paperwork.
+
+Student
+- Bank 6-month rule applies.
+- Insurance NHI (required)
+- Pension Student Waiver can be applied for.
+- Special Work up to 28 hours per week (permission required)
+
+[Specified Skilled Worker (Specified Skills)
+- Bank 6-month rule applies
+- InsuranceEmployment insurance (company insurance)
+- Pension Employer Pension
+- Special: Employer/agency often assists with procedures.
+
+[Spouse of Japanese national]
+- Bank If you have just arrived in Japan, the 6-month rule may apply
+- Insurance National Health Insurance or spouse's employment insurance
+- Pension Category 3 if spouse is a company employee (not required to pay)
+- Can work without special restrictions
+
+=== 6-month rule under the Foreign Exchange and Foreign Trade Act
+- Foreign Exchange and Foreign Trade Law (Foreign Exchange Law)
+- Residence period of less than 6 months = "Non-resident" status
+- Non-resident account online banking not available, debit card not available, ATM usage time limited
+- Upgradeable to full resident account after 6 months
+- Source: Bank of Japan regulations, Wise Blog, Japan Dev

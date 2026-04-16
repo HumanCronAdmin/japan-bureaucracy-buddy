@@ -1,0 +1,8 @@
+# X Draft
+> Generator: Groq
+
+[Pattern 1.]
+After learning about the difficulties of the procedures for living in Japan from a foreigner on r/japanlife on Reddit, I created a free checklist tool! https://humancronadmin.github.io/japan-bureaucracy-buddy/ #live-in-Japan
+
+[pattern 2]
+Free checklist for foreigners living in Japan is now available! https://humancronadmin.github.io/japan-bureaucracy-buddy/ #Foreigners in Japan
